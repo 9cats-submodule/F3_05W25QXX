@@ -2,6 +2,8 @@
 #define __LCD_H
 #include "base.h"
 #include "stdlib.h"
+#include "fontupd.h"
+#include "text.h"
 //////////////////////////////////////////////////////////////////////////////////
 //本程序只供学习使用，未经作者许可，不得用于其它任何用途
 //ALIENTEK MiniSTM32F103开发板

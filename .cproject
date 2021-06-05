@@ -77,7 +77,7 @@
                                     									
                                     <listOptionValue builtIn="false" value="../Core/Inc"/>
                                     									
-                                    <listOptionValue builtIn="false" value="../Drivers/F1_RNF24L01_Driver/Inc"/>
+                                    <listOptionValue builtIn="false" value="../Drivers/F1_W24QXX_Driver/Inc"/>
                                     									
                                     <listOptionValue builtIn="false" value="../Drivers/F1_TOUCH_Driver/Inc"/>
                                     									
@@ -334,5 +334,7 @@
         </scannerConfigBuildInfo>
         	
     </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
     
 </cproject>

@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>04RNF24L01</TargetName>
+      <TargetName>05W25QXX</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <pCCUsed>5060960::V5.06 update 7 (build 960)::.\ARMCC</pCCUsed>
@@ -137,7 +137,7 @@
             <DriverSelection>4101</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
-          <Flash2>BIN\UL2V8M.DLL</Flash2>
+          <Flash2>BIN\UL2CM3.DLL</Flash2>
           <Flash3></Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Drivers/F1_LCD_Driver/Inc;../Drivers/F1_TOUCH_Driver/Inc;../Drivers/F1_RNF24L01_Driver/Inc</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Drivers/F1_LCD_Driver/Inc;../Drivers/F1_TOUCH_Driver/Inc;../Drivers/F1_W24QXX_Driver/Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -561,12 +561,12 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Drivers/F1_RNF24L01_Driver</GroupName>
+          <GroupName>Drivers/F1_W25QXX_Driver</GroupName>
           <Files>
             <File>
-              <FileName>24l01.c</FileName>
+              <FileName>w25qxx.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Drivers\F1_RNF24L01_Driver\Src\24l01.c</FilePath>
+              <FilePath>..\Drivers\F1_W24QXX_Driver\Src\w25qxx.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -583,7 +583,7 @@
       <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="4.3.0" condition="CMSIS Core">
         <package name="CMSIS" schemaVersion="1.3" url="http://www.keil.com/pack/" vendor="ARM" version="4.5.0"/>
         <targetInfos>
-          <targetInfo name="04RNF24L01"/>
+          <targetInfo name="05W25QXX"/>
         </targetInfos>
       </component>
     </components>
